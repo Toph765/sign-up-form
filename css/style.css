@@ -73,6 +73,27 @@ label, input {
     display: block;
 }
 
+div.text-input > div {
+    padding: 12px 12px 12px 0;
+} 
+
+input {
+    width: 300px;
+    height: 20px;
+}
+
+button {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #030A14;
+    margin: 18px 0 30px;
+    padding: 8px 30px;
+    border-style: none;
+    background-color: #B31312;
+    border-radius: 8px;
+}
+
+
 
 
 
