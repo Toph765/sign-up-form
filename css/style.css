@@ -39,7 +39,7 @@ body {
 .picture {
     position: relative;
     font-family: 'space-rave-italic', sans-serif;
-    font-size: 4rem;
+    font-size: 3.6rem;
     width: 40vw;
     height: 100vh;
     background: url(../img/serafin-reyna-background.jpg);
@@ -52,10 +52,18 @@ div.picture > div {
     color: var(--title-color);
 }
 
+div.picture > div:first-child {
+    padding-left: 12px;
+    background: -webkit-linear-gradient(left,rgba(234, 144, 108, 0.8), rgba(238, 226, 222, 0.4));
+}
+
 div.picture > div + div {
+    padding-right: 12px;
     position: absolute;
     bottom: 0;
+    right: 0;
     text-align: end;
+    font-size: 2rem;
 }
 
 div.right {
@@ -63,7 +71,7 @@ div.right {
     color: #EEE2DE;
     width: 60vw;
     background: var(--background-color);
-    padding: 60px;
+    padding: 40px;
 }
 
 div.right > div:first-child {
