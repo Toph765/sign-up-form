@@ -11,6 +11,7 @@
     --background-color: #030A14;
     --border-color: #002F5E;
     --focus-color: #08b308;
+    --link-color: #009100; 
 }
 
 @font-face {
@@ -105,6 +106,12 @@ button {
     border-style: none;
     background-color: var(--title-color);
     border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--link-color);
 }
 
 
