@@ -50,7 +50,7 @@ div.picture > div + div {
     text-align: end;
 }
 
-.right {
+div.right {
     font-family: 'Roboto', sans-serif;
     color: #EEE2DE;
     width: 60vw;
@@ -63,6 +63,16 @@ div.right > div:first-child {
     font-size: 1.8rem;
     padding-bottom: 30px;
 }
+
+div.text-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label, input {
+    display: block;
+}
+
 
 
 
