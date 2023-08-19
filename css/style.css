@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "space-rave-regular";
+    src: 
+        url('../fonts/spacerave-6ye1m-webfont.woff') format('woff'),
+        url('../fonts/spacerave-6ye1m-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "space-rave-italic";
+    src: 
+        url('../fonts/spaceraveitalic-z8gog-webfont.woff') format('woff'),
+        url('../fonts/spaceraveitalic-z8gog-webfont.woff2')  format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    display: flex;
+}
+
+.picture {
+    width: 50vw;
+    height: 100vh;
+    background: #fff url(../img/serafin-reyna-background.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
