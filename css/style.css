@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --title-color: #B31312;
+    --background-color: #030A14;
+    --border-color: #002F5E;
+    --focus-color: #08b308;
+}
+
 @font-face {
     font-family: "space-rave-regular";
     src: 
@@ -41,7 +48,7 @@ body {
 }
 
 div.picture > div {
-    color: #B31312;
+    color: var(--title-color);
 }
 
 div.picture > div + div {
@@ -54,7 +61,7 @@ div.right {
     font-family: 'Roboto', sans-serif;
     color: #EEE2DE;
     width: 60vw;
-    background: #030A14;
+    background: var(--background-color);
     padding: 60px;
 }
 
@@ -78,18 +85,19 @@ div.text-input > div {
 } 
 
 input {
+    border: 2px solid;
     width: 300px;
-    height: 20px;
+    height: 30px;
 }
 
 button {
     font-size: 1.4rem;
     font-weight: bold;
-    color: #030A14;
+    color: var(--background-color);
     margin: 18px 0 30px;
     padding: 8px 30px;
     border-style: none;
-    background-color: #B31312;
+    background-color: var(--title-color);
     border-radius: 8px;
 }
 
