@@ -55,4 +55,14 @@ div.picture > div + div {
     color: #EEE2DE;
     width: 60vw;
     background: #030A14;
+    padding: 60px;
 }
+
+div.right > div:first-child {
+    width: 600px;
+    font-size: 1.8rem;
+    padding-bottom: 30px;
+}
+
+
+
