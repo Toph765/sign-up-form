@@ -29,11 +29,30 @@ body {
 }
 
 .picture {
-    width: 50vw;
+    position: relative;
+    font-family: 'space-rave-italic', sans-serif;
+    font-size: 4rem;
+    width: 40vw;
     height: 100vh;
-    background: #fff url(../img/serafin-reyna-background.jpg);
+    background: url(../img/serafin-reyna-background.jpg);
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
 }
 
+div.picture > div {
+    color: #B31312;
+}
+
+div.picture > div + div {
+    position: absolute;
+    bottom: 0;
+    text-align: end;
+}
+
+.right {
+    font-family: 'Roboto', sans-serif;
+    color: #EEE2DE;
+    width: 60vw;
+    background: #030A14;
+}
