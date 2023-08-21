@@ -107,6 +107,7 @@ input:focus {
 
 .error-password,
 .error-confirm {
+    position: absolute;
     color: rgb(224, 25, 25);
     display: none;
 }
